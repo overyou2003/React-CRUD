@@ -30,7 +30,7 @@ export default function BookList() {
 
   useEffect(() => {
     axios
-      .get("https://node41091-noderest.proen.app.ruk-com.cloud/books")
+      .get("https://node57391-patiphat-noderest.proen.app.ruk-com.cloud/books")
       .then((response) => {
         setBooks(response.data);
       });
